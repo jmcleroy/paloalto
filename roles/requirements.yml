@@ -1,0 +1,5 @@
+---
+- name: PaloAltoNetworks.paloaltonetworks
+  src: https://github.com/PaloAltoNetworks/ansible-pan
+  scm: git
+  version: develop
