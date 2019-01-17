@@ -7,4 +7,4 @@
 
   roles:
     - PaloAltoNetworks.paloaltonetworks
-    - panos_show
+    - panos_adduser
