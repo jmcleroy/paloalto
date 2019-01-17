@@ -6,8 +6,8 @@
     password: "{{ panos_password }}"
     cmd:
       - 'configure'
-      - 'set mgt-config users testuser password test'
-      - 'set mgt-config users testuser permissions role-based superuser'
-      - 'commit'
+#      - 'set mgt-config users testuser password test'
+#      - 'set mgt-config users testuser permissions role-based superuser'
+#      - 'commit'
 
 
