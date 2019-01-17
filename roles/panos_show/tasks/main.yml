@@ -1,11 +1,11 @@
 ---
-- name: create a global service for TCP 221
-  panos_object:
+- name: configure foo administrator
+  panos_administrator:
     ip_address: "192.168.1.70"
     username: "admin"
     password: "admin"
-    operation: 'add'
-    serviceobject: 'service-tcp-221'
-    destination_port: '221'
-    protocol: 'tcp'
-    description: 'ssh on 221'
+    admin_username: 'foo'
+    admin_password: 'secret'
+    superuser: true
+    commit: false #### Return Values
+
