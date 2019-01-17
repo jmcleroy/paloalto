@@ -2,8 +2,8 @@
 - name: configure foo administrator
   panos_administrator:
     ip_address: "192.168.1.70"
-    username: "{{ username }}"
-    password: "{{ password }}"
+    username: "{{ F5_USER }}"
+    password: "{{ F5_PASSWORD }}"
     admin_username: 'foo'
     admin_password: 'secret'
     superuser: true
