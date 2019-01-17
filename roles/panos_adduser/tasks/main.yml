@@ -1,0 +1,11 @@
+---
+- name: show list of all interfaces
+  panos_op:
+    ip_address: '192.168.1.70'
+    cmd:
+      - 'configure'
+      - 'set mgt-config users testuser password test'
+      - 'set mgt-config users testuser permissions role-based superuser'
+      - 'commit'
+
+
