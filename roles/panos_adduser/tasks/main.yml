@@ -4,9 +4,9 @@
     ip_address: '192.168.1.70'
     username: "{{ panos_username }}"
     password: "{{ panos_password }}"
-    cmd:
+    cmd: 'set mgt-config users testuser password test'
 #      - 'configure'
-      - 'set mgt-config users testuser password test'
+
 #      - 'set mgt-config users testuser permissions role-based superuser'
 #      - 'commit'
 
