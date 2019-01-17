@@ -2,6 +2,8 @@
 - name: show list of all interfaces
   panos_op:
     ip_address: '192.168.1.70'
+    username: "{{ panos_username }}"
+    password: "{{ panos_password }}"
     cmd:
       - 'configure'
       - 'set mgt-config users testuser password test'
