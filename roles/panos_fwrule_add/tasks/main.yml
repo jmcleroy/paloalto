@@ -9,9 +9,9 @@
     description: 'SSH rule test'
 #    tag_name: ['production']
     source_zone: ['any']
-    source_ip: ['any']
+    source_ip: ['{{ source_ip }}']
     destination_zone: ['any']
-    destination_ip: ['1.1.1.1']
+    destination_ip: ['{{ destination_ip }}']
     application: ['ssh']
     action: 'allow'
     commit: no
