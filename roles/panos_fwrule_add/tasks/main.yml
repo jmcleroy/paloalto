@@ -14,3 +14,4 @@
     destination_ip: ['1.1.1.1']
     application: ['ssh']
     action: 'allow'
+    commit: no
