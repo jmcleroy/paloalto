@@ -8,9 +8,9 @@
     rule_name: 'SSH permit'
     description: 'SSH rule test'
     tag_name: ['production']
-    source_zone: ['public']
+    source_zone: ['any']
     source_ip: ['any']
-    destination_zone: ['private']
+    destination_zone: ['any']
     destination_ip: ['1.1.1.1']
     application: ['ssh']
     action: 'allow'
