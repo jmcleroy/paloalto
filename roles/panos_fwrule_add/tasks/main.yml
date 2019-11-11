@@ -7,7 +7,7 @@
     device_group: 'Cloud Edge'
     rule_name: 'SSH permit'
     description: 'SSH rule test'
-    tag_name: ['production']
+#    tag_name: ['production']
     source_zone: ['any']
     source_ip: ['any']
     destination_zone: ['any']
